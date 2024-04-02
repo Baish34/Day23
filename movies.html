@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Movies List</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+  <header>
+    <nav class="text-secondary navbar navbar-expand-lg text-secondary bg-light">
+      <div class="container">
+        <a class="navbar-brand text-normal" href="index.html">Movie Database</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="movies.html">Movies</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="report.html">Report</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="container">
+      <h1 class="pt-2">List of Movies</h1>
+      <div class="row">
+        <div class="col-md-6 mb-3">
+          <div class="card">
+            <div class="card-header">
+              <h4>Movie 1</h4>
+            </div>
+            <div class="card-body">
+              <p><strong>Genre: </strong>Action</p>
+              <a href="movieDetails.html?id=1" class="btn btn-primary">Details</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mb-3">
+          <div class="card">
+            <div class="card-header">
+              <h4>Movie 2</h4>
+            </div>
+            <div class="card-body">
+              <p><strong>Genre: </strong>Drama</p>
+              <a href="movieDetails.html?id=2" class="btn btn-primary">Details</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mb-3">
+          <div class="card">
+            <div class="card-header">
+              <h4>Movie 3</h4>
+            </div>
+            <div class="card-body">
+              <p><strong>Genre: </strong>Comedy</p>
+              <a href="movieDetails.html?id=3" class="btn btn-primary">Details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>
